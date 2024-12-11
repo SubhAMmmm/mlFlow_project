@@ -17,7 +17,7 @@ USAhousing = pd.read_csv(r"C:\Users\SubhamSahu\Desktop\MlOps\mlops_venv\USA_Hous
 print("USAhousing shape", USAhousing.shape)
 
 # Check for missing values
-print("USAhousing.isnull().sum()")
+#print("USAhousing.isnull().sum()")
 
 # Features and target
 X = USAhousing[['Avg. Area Income', 'Avg. Area House Age', 'Avg. Area Number of Rooms', 'Avg. Area Number of Bedrooms', 'Area Population']]
